@@ -21,8 +21,8 @@
 
 | # | System Name | Category | Priority | Status | Design Doc | Depends On |
 |---|-------------|----------|----------|--------|------------|------------|
-| 1 | 卡牌数据系统 | Core | MVP | Not Started | — | (none) |
-| 2 | 回合流程系统 | Core | MVP | Not Started | — | (none) |
+| 1 | 卡牌数据系统 | Core | MVP | Draft Complete | design/gdd/card-data-system.md | (none) |
+| 2 | 回合流程系统 | Core | MVP | Draft Complete | design/gdd/turn-flow-system.md | (none) |
 | 3 | 技能联动系统 | Gameplay | MVP | Not Started | — | 卡牌数据 |
 | 4 | 卡牌堆叠系统 | Gameplay | MVP | Not Started | — | 卡牌数据 |
 | 5 | 地形修正系统 | Gameplay | MVP | Not Started | — | 卡牌数据 |
@@ -159,7 +159,7 @@ None found.
 | Metric | Count |
 |--------|-------|
 | Total systems identified | 20 |
-| Design docs started | 0 |
+| Design docs started | 2 |
 | Design docs reviewed | 0 |
 | Design docs approved | 0 |
 | MVP systems designed | 0/11 |
