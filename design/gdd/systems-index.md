@@ -23,15 +23,15 @@
 |---|-------------|----------|----------|--------|------------|------------|
 | 1 | 卡牌数据系统 | Core | MVP | Draft Complete | design/gdd/card-data-system.md | (none) |
 | 2 | 回合流程系统 | Core | MVP | Draft Complete | design/gdd/turn-flow-system.md | (none) |
-| 3 | 技能联动系统 | Gameplay | MVP | Not Started | — | 卡牌数据 |
-| 4 | 卡牌堆叠系统 | Gameplay | MVP | Not Started | — | 卡牌数据 |
-| 5 | 地形修正系统 | Gameplay | MVP | Not Started | — | 卡牌数据 |
-| 6 | 资源经济系统 | Economy | MVP | Not Started | — | 回合流程 |
-| 7 | 自动战斗系统 | Gameplay | MVP | Not Started | — | 卡牌堆叠, 技能联动, 地形修正 |
-| 8 | 大地图系统 | Core | MVP | Not Started | — | 地形修正, 资源经济 |
-| 9 | 回合部署系统 | Gameplay | MVP | Not Started | — | 卡牌堆叠, 大地图, 回合流程 |
-| 10 | AI对手系统 | Gameplay | MVP | Not Started | — | 大地图, 回合流程 |
-| 11 | 战报系统 | UI | MVP | Not Started | — | 自动战斗 |
+| 3 | 技能联动系统 | Gameplay | MVP | Draft Complete | design/gdd/skill-synergy-system.md | 卡牌数据 |
+| 4 | 卡牌堆叠系统 | Gameplay | MVP | Draft Complete | design/gdd/card-stacking-system.md | 卡牌数据 |
+| 5 | 地形修正系统 | Gameplay | MVP | Draft Complete | design/gdd/terrain-modifier-system.md | 卡牌数据, 大地图 |
+| 6 | 资源经济系统 | Economy | MVP | Draft Complete | design/gdd/resource-economy-system.md | 回合流程 |
+| 7 | 自动战斗系统 | Gameplay | MVP | Draft Complete | design/gdd/auto-battle-system.md | 卡牌堆叠, 技能联动, 地形修正 |
+| 8 | 大地图系统 | Core | MVP | Draft Complete | design/gdd/grand-map-system.md | 地形修正, 资源经济 |
+| 9 | 回合部署系统 | Gameplay | MVP | Draft Complete | design/gdd/deployment-system.md | 卡牌堆叠, 大地图, 回合流程 |
+| 10 | AI对手系统 | Gameplay | MVP | Draft Complete | design/gdd/ai-opponent-system.md | 大地图, 回合流程 |
+| 11 | 战报系统 | UI | MVP | Draft Complete | design/gdd/battle-report-system.md | 自动战斗 |
 | 12 | 武将管理系统 | Gameplay | Vertical Slice | Not Started | — | 卡牌数据, 资源经济 |
 | 13 | 兵种管理系统 | Gameplay | Vertical Slice | Not Started | — | 卡牌数据, 资源经济 |
 | 14 | 计策系统 | Gameplay | Vertical Slice | Not Started | — | 卡牌数据, 技能联动 |
@@ -159,7 +159,7 @@ None found.
 | Metric | Count |
 |--------|-------|
 | Total systems identified | 20 |
-| Design docs started | 2 |
+| Design docs started | 11 |
 | Design docs reviewed | 0 |
 | Design docs approved | 0 |
 | MVP systems designed | 0/11 |
